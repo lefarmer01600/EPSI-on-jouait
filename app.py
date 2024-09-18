@@ -29,7 +29,9 @@ def submit():
             return render_template('answer.html', reponse="Bonne réponse")
         return render_template('answer.html',reponse="Mauvaise réponse")
     return render_template('answer.html')
+
 if __name__ == '__main__':
     from waitress import serve
     serve(app, host="0.0.0.0", port=8080)
     # app.run(debug=True)
+    # app.static_folder = 'static'
