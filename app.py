@@ -10,7 +10,7 @@ data = {}
 
 answer = ""
 
-with open('src/questions_reponses.json', 'r') as file:
+with open('src/questions_reponses.json', 'r', encoding='utf8') as file:
     data = json.load(file)
 
 @app.route('/')
@@ -30,4 +30,6 @@ def submit():
         return render_template('answer.html',reponse="Mauvaise réponse")
     return render_template('answer.html')
 if __name__ == '__main__':
-    app.run(debug=True)
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=8080)
+    # app.run(debug=True)
