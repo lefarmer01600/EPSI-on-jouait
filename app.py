@@ -25,7 +25,6 @@ def submit():
     global answer
     if request.method == 'POST':
         user_answer = request.form.getlist('question')[0]
-        print(user_answer)
         if user_answer == answer:
             return render_template('answer.html', reponse="Bonne réponse")
         return render_template('answer.html',reponse="Mauvaise réponse")
