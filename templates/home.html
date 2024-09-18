@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
-    <title>Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Informatique</title>
 </head>
+
 <body>
-    <h1>Welcome to the Home Page</h1>
+    <h1>Quiz Informatique</h1>
+
+    <form action="/submit" method="post">
+        <div>
+            <h3>{{ question.question }}</h3>
+            <ul>
+                {% for key, option in question.options.items() %}
+                <li>
+                    <input type="radio" name="question" id="{{ key }}" value="{{ key }}">
+                    <label for="{{ key }}">{{ option }}</label>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <button type=" submit">Confirmer</button>
+    </form>
 </body>
+
 </html>

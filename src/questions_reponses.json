@@ -1,0 +1,154 @@
+{
+    "Informatique_QCM": [
+        {
+            "question": "Quelle est la fonction principale d'un processeur dans un ordinateur ?",
+            "options": {
+                "a": "Gérer la mémoire",
+                "b": "Exécuter les instructions des programmes",
+                "c": "Stocker les données",
+                "d": "Gérer les connexions Internet"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question": "Quel langage de programmation est principalement utilisé pour le développement back-end ?",
+            "options": {
+                "a": "HTML",
+                "b": "CSS",
+                "c": "Python",
+                "d": "JavaScript"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "question": "Lequel de ces systèmes d’exploitation est open source ?",
+            "options": {
+                "a": "Windows",
+                "b": "macOS",
+                "c": "Linux",
+                "d": "iOS"
+            },
+            "correct_answer": "c"
+        },
+        {
+            "question": "Qu'est-ce qu'un algorithme ?",
+            "options": {
+                "a": "Une application logicielle",
+                "b": "Une méthode pour résoudre des problèmes",
+                "c": "Une base de données",
+                "d": "Un langage de programmation"
+            },
+            "correct_answer": "b"
+        }
+    ],
+    "Marketing_QCM": [
+        {
+            "question": "Qu'est-ce qu'une stratégie de SEO ?",
+            "options": {
+                "a": "Une méthode pour promouvoir des produits sur les réseaux sociaux",
+                "b": "Une technique pour améliorer la position d’un site web dans les résultats de recherche",
+                "c": "Un type de publicité payante sur Internet",
+                "d": "Un processus pour analyser les ventes en ligne"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question": "Quel indicateur mesure l’engagement d’un utilisateur sur une page web ?",
+            "options": {
+                "a": "Le nombre de visites",
+                "b": "Le taux de rebond",
+                "c": "Le coût par clic",
+                "d": "Le nombre de pages vues par session"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "question": "Qu'est-ce que le marketing d'influence ?",
+            "options": {
+                "a": "Utiliser des célébrités pour promouvoir des produits",
+                "b": "Acheter des publicités sur Google",
+                "c": "Créer des blogs pour attirer des clients",
+                "d": "Utiliser des influenceurs pour promouvoir des produits"
+            },
+            "correct_answer": "d"
+        },
+        {
+            "question": "Que signifie le terme 'CTA' dans le marketing digital ?",
+            "options": {
+                "a": "Call to Action",
+                "b": "Customer Target Audience",
+                "c": "Content Technical Analysis",
+                "d": "Conversion Traffic Analysis"
+            },
+            "correct_answer": "a"
+        }
+    ],
+    "Informatique_Vrai_Faux": [
+        {
+            "question": "La mémoire RAM est utilisée pour stocker les fichiers de manière permanente.",
+            "options": {
+                "a": "Vrai",
+                "b": "Faux"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question": "HTML signifie Hyper Text Markup Language.",
+            "options": {
+                "a": "Vrai",
+                "b": "Faux"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "Python est un langage de programmation utilisé principalement pour la création de sites web.",
+            "options": {
+                "a": "Vrai",
+                "b": "Faux"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "Un réseau local (LAN) permet la connexion d’ordinateurs au sein d’une même zone géographique restreinte.",
+            "options": {
+                "a": "Vrai",
+                "b": "Faux"
+            },
+            "correct_answer": "a"
+        }
+    ],
+    "Marketing_Vrai_Faux": [
+        {
+            "question": "Le taux de conversion est le pourcentage de visiteurs qui effectuent une action souhaitée sur un site (comme un achat ou une inscription).",
+            "options": {
+                "a": "Vrai",
+                "b": "Faux"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "Le marketing par e-mail est devenu obsolète avec l’arrivée des réseaux sociaux.",
+            "options": {
+                "a": "Vrai",
+                "b": "Faux"
+            },
+            "correct_answer": "b"
+        },
+        {
+            "question": "Le coût par clic (CPC) est une mesure utilisée dans la publicité en ligne où l’annonceur paie chaque fois qu’un utilisateur clique sur une annonce.",
+            "options": {
+                "a": "Vrai",
+                "b": "Faux"
+            },
+            "correct_answer": "a"
+        },
+        {
+            "question": "L’analyse des données est une composante clé de l’optimisation des campagnes de marketing digital.",
+            "options": {
+                "a": "Vrai",
+                "b": "Faux"
+            },
+            "correct_answer": "a"
+        }
+    ]
+}
