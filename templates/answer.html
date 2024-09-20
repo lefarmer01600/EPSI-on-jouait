@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Réponse au Quiz</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-100 flex items-center justify-center h-screen">
-    <div class="bg-white p-10 rounded-lg shadow-md w-1/2 text-center">
+    <div class="bg-white p-10 rounded-lg shadow-md w-full md:w-1/2 text-center">
         <h1 class="text-3xl mb-5">Votre réponse</h1>
         <p class="text-xl mb-5">{{ reponse }}</p>
     </div>
