@@ -16,6 +16,3 @@ Lorsque l'utilisateur soumet une réponse, la méthode submit est appelée. Cett
 
 Pour installer et exécuter ce projet, vous devez avoir Python et Flask installés sur votre machine. Vous pouvez ensuite cloner ce dépôt et exécuter app.py pour démarrer l'application.
 
-# Contribution
-
-Les contributions à ce projet sont les bienvenues. Si vous souhaitez contribuer, veuillez créer une nouvelle branche, apporter vos modifications, puis soumettre une demande de merge.
