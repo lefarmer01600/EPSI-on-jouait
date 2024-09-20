@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Réponse au Quiz</title>
+    <!-- Lien vers la feuille de style CSS pour l'avoir en local via Flask-->
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body class="bg-gray-100 flex items-center justify-center h-screen">
     <div class="bg-white p-10 rounded-lg shadow-md w-full md:w-1/2 text-center">
+        <!-- Titre de la page de réponse -->
         <h1 class="text-3xl mb-5">Votre réponse</h1>
+        <!-- Affiche la réponse de l'utilisateur -->
         <p class="text-xl mb-5">{{ reponse }}</p>
     </div>
 </body>

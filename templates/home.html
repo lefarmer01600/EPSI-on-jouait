@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Informatique</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <!-- Lien vers la feuille de style CSS pour l'avoir en local via Flask-->
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
@@ -13,18 +13,24 @@
     <div class="bg-white p-10 rounded-lg shadow-md w-full md:w-1/2">
         <h1 class="text-3xl mb-5 text-center">Quiz Informatique</h1>
 
+        <!-- Formulaire pour soumettre la réponse -->
         <form action="/submit" method="post">
             <div class="mb-5">
+                <!-- Affiche la question -->
                 <h3 class="text-xl mb-2">{{ question.question }}</h3>
                 <ul>
+                    <!-- Boucle sur les options de la question -->
                     {% for key, option in question.options.items() %}
                     <li class="mb-2">
+                        <!-- Input radio pour chaque option -->
                         <input type="radio" name="question" id="{{ key }}" value="{{ key }}" class="mr-2">
+                        <!-- Label pour chaque option -->
                         <label for="{{ key }}" class="text-lg">{{ option }}</label>
                     </li>
                     {% endfor %}
                 </ul>
             </div>
+            <!-- Bouton pour soumettre la réponse -->
             <button type="submit" class="bg-blue-500 text-white px-5 py-2 rounded-lg">Confirmer</button>
         </form>
     </div>
