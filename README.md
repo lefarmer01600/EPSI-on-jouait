@@ -1,6 +1,4 @@
-### EPSI-on-jouait
-
-## Quiz Informatique et Marketing
+## EPSI-on-jouait
 
 Ce projet est une application web de quiz sur l'informatique et le marketing. Il est construit avec Flask, un framework web en Python, et utilise Tailwind CSS pour le style.
 
